@@ -2,10 +2,12 @@ body {
     background-color #FDF9F9;
     margin: 0%;
     padding: 0%;
+    font-family: sans-serif;
+
 }
 nav {
+    border-bottom: yellow solid 10px;
     box-sizing: inherit;
-    border-color: red;
     display: flex;
 }
 img {
@@ -14,4 +16,14 @@ img {
 }
 ul {
     list-style: none;
+}
+.table {
+    display: table;
+    margin: 0 auto;
+}
+.menu-outer {
+    height: 84px;
+}
+ul li {
+    display: inline;
 }
