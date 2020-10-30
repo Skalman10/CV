@@ -3,27 +3,36 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: sans-serif;
-
+    font-weight: 400;
 }
 nav {
     border-bottom: yellow solid 10px;
     box-sizing: inherit;
-    display: flex;
+    height: 68px;
+    text-align: center;
 }
 img {
     width: 20%;
     height: 20%;
 }
-ul {
-    list-style: none;
-}
 .table {
     display: table;
     margin: 0 auto;
 }
-.menu-outer {
-    height: 84px;
+#menu-outer {
+    height: 68px;
+    margin: 0%;
 }
 ul li {
     display: inline;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 48px;
+    padding-bottom: 2px;
+    background-color: #EEECEC;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
