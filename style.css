@@ -6,6 +6,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     display: block;
+    
 }
 nav {
     border-bottom: yellow solid 10px;
@@ -47,5 +48,19 @@ main {
     padding-top: 36px;
     padding-left: 24px;
     padding-right: 24px;
+    margin-bottom: 0%;
+    padding-bottom: 12px;
     background-color: whitesmoke;
+}
+footer {
+    background-color: #585757;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 12px;
+    text-align: center;
+    padding-bottom: 36px;
+    
+}
+footer li {
+    background-color: #585757;
 }
