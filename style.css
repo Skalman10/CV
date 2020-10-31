@@ -11,7 +11,7 @@ body {
 nav {
     border-bottom: yellow solid 10px;
     height: 52px;
-    text-align: center;
+    text-align: center;    
 }
 img {
     width: 20%;
@@ -63,4 +63,5 @@ footer {
 }
 footer li {
     background-color: #585757;
-}
+    color: whitesmoke;
+}   
