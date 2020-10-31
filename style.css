@@ -1,36 +1,29 @@
 body {
-    background-color #FDF9F9;
+    background-color:whitesmoke;
     margin: 0%;
     padding: 0%;
+    font: ;
     font-family: sans-serif;
+    font-size: 1rem;
     font-weight: 400;
+    display: block;
 }
 nav {
     border-bottom: yellow solid 10px;
-    box-sizing: inherit;
-    height: 68px;
+    height: 52px;
     text-align: center;
 }
 img {
     width: 20%;
     height: 20%;
 }
-.table {
-    display: table;
-    margin: 0 auto;
-}
-#menu-outer {
-    height: 68px;
-    margin: 0%;
-}
 ul li {
     display: inline;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-top: 48px;
+    padding: 12px;
     padding-bottom: 2px;
-    background-color: #EEECEC;
-    font-weight: 400;
+    padding-top: 48px;
+    font-weight: 700;
+    background-color: yellow;
 }
 a {
     text-decoration: none;
